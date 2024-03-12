@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 } 
 
 body {
@@ -11,6 +11,13 @@ body {
 }
 
 header {
+    background-color: #fff;
+    padding: 11px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
     background-color: #000;
     padding: 11px;
 }
@@ -20,25 +27,30 @@ header {
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
-    height: 4rem;
+    height: 6rem;
 }
 
-.toggle {
+.drop-button {
     position: absolute;
     right: 1.5rem;
+    background-color: #bbbbbb6b;
+    border-radius: 7px;
+    padding: 0.3rem;
+}
+
+header:hover .nav-link {
+    display: block;
 }
 
 .material-symbols-outlined {
-    color: #fff;
-}
-
-footer {
-    background-color: #000;
-    padding: 11px;
+    color: #111;
 }
 
 .nav-link {
     display: none;
+    background-color: #bbbbbb6b;
+    border-radius: 18px;
+    padding: 1rem;
 }
 
 .nav-link ul {
@@ -51,17 +63,63 @@ footer {
 .nav-link li a{
     text-decoration: none;
     display: block;
-    color: #fff;
+    color: rgb(85, 85, 85);;
     padding: 8px 16px;
     text-align: center;
     font-weight:lighter;
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin: 1.5rem;
-    color: #fff;
+    color: #111;
     font-weight: lighter;
 }
+
+section {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.profile-section {
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.profile-image {
+    height: 55vw;
+}
+
+.profile-section img {
+    width: 50%;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+.profile-text p {
+    font-weight:600;
+    color: rgb(85, 85, 85);
+}
+
+.profile-text .name {
+    margin-bottom: .3rem;
+}
+
+.profile-text .tag-line {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.social-accounts {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
 
 
