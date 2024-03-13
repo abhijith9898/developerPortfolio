@@ -1,48 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abhijith Portfolio</title>
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Pathway+Gothic+One&display=swap"
-      rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Pathway+Gothic+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Pathway+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Pathway+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">Abhijith</div>
-            <div class="drop-button">
-                <a href="#" onclick="toggleClick()"><span class="material-symbols-outlined">menu</span></a>
-            </div>
-        </nav>
-        <div class="nav-link" id="nav-link">
-            <ul>
-                <li><a href="#Experience">Experience</a></li>
-                <li><a href="#Project">Project</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
+      <nav class="navbar">
+        <div class="logo">Abhijith</div>
+        <div class="drop-button">
+          <a href="#" onclick="toggleClick()"
+            ><span class="material-symbols-outlined">menu</span></a
+          >
         </div>
+      </nav>
+      <div class="nav-link" id="nav-link">
+        <ul>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Project">Project</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
     </header>
     <section>
-        <div class="profile-section">
-            <div class="profile-image">
-                <img src="./assets/profile-pic-color.png" alt="profile picture">
-            </div>
-            <div class="profile-text">
-                <p>Hello, I'm</p>
-                <h1 class="name">Abhijith Rajeev</h1>
-                <p class="tag-line">Frontend Developer</p>
-            </div>
-            <div class="social-accounts">
-                <i class="fa fa-linkedin-square"></i>
-                <i class="fa fa-github"></i>
-            </div>
+      <div class="profile-section">
+        <div class="profile-image">
+          <img src="./assets/profile-pic-color.png" alt="profile picture" />
         </div>
+        <div class="profile-text">
+          <p class="grey-text">Hello, I'm</p>
+          <h1 class="name">Abhijith Rajeev</h1>
+          <p class="tag-line">Web Developer</p>
+        </div>
+        <div class="social-accounts">
+          <i class="fa fa-linkedin-square"></i>
+          <i class="fa fa-github"></i>
+        </div>
+      </div>
+      <div class="about">
+        <div class="card">
+          <div class="card-head">
+            <p class="grey-text">Get To Know More</p>
+            <h1 class="name">About Me</h1>
+          </div>
+          <div class="about-image">
+            <img src="./assets/about-image-bw.png" alt="About Image" />
+          </div>
+          <div class="about-content">
+            <div class="box">
+              <i class="fa fa-briefcase"></i>
+              <p class="about-box-head">Experience</p>
+              <p class="grey-text">2+ years</p>
+              <p class="grey-text">Web Development</p>
+            </div>
+            <div class="box">
+              <i class="fa fa-graduation-cap"></i>
+              <p class="about-box-head">Education</p>
+              <p class="grey-text">B.Tech in Computer Science</p>
+              <!-- <p class="grey-text">B.Tech in Computer Science</p> -->
+            </div>
+            <div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not
+                only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="card">
+          <div class="card-head">
+            <p class="grey-text">Explore My</p>
+            <h1 class="name">Experience</h1>
+          </div>
+          <div class="box">
+            <p class="tag-line">Frontend</p>
+            <div class="tech-list">              
+              <span class="techs"><i class="fa fa-code"></i> HTML</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <footer></footer>
-</body>
+  </body>
 </html>

@@ -80,15 +80,18 @@ section {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .profile-section {
     display: block;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .profile-image {
-    height: 55vw;
+    margin-bottom: 2rem;
 }
 
 .profile-section img {
@@ -99,7 +102,7 @@ h1 {
     font-size: 2.2rem;
 }
 
-.profile-text p {
+.grey-text {
     font-weight:600;
     color: rgb(85, 85, 85);
 }
@@ -108,10 +111,11 @@ h1 {
     margin-bottom: .3rem;
 }
 
-.profile-text .tag-line {
+.tag-line {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    color: rgb(85, 85, 85);
 }
 
 .social-accounts {
@@ -119,6 +123,81 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+
+section .about {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+section .skills {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+section .card {
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+section .card .card-head {
+    margin-bottom: 2rem;
+}
+
+section .card .about-content {
+    margin-bottom: 2rem;
+    text-align: justify;
+    color: rgb(85, 85, 85);
+}
+
+section .card .about-image {
+    margin-bottom: 2rem;
+}
+
+section .card .about-image img {
+    width: 50%;
+}
+
+section .card .box {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    border: rgb(85, 85, 85) .1rem solid;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+section .card .about-content .box i {
+    font-size: 2rem;
+    color: #111;
+}
+
+section .card .about-content .box .about-box-head{   
+    font-size: 1.25rem; 
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #111;
+}
+
+section .skills .card {
+    width: 100%;
+}
+
+section .skills .techs {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111;
+}
+
+section .skills .techs i{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #111;
 }
 
 
