@@ -25,7 +25,10 @@
   <body>
     <header>
       <nav class="navbar">
-        <div class="logo">Abhijith</div>
+        <!-- <div class="logo">Abhijith</div> -->
+        <div class="logo-image">
+          <img src="./assets/logo-black.png" alt="logo" />
+        </div>
         <div class="drop-button">
           <a href="#" onclick="toggleClick()"
             ><span class="material-symbols-outlined">menu</span></a
@@ -34,8 +37,9 @@
       </nav>
       <div class="nav-link" id="nav-link">
         <ul>
+          <li><a href="#About">About</a></li>
           <li><a href="#Experience">Experience</a></li>
-          <li><a href="#Project">Project</a></li>
+          <li><a href="#Projects">Projects</a></li>
           <li><a href="#Contact">Contact</a></li>
         </ul>
       </div>
@@ -49,6 +53,14 @@
           <p class="grey-text">Hello, I'm</p>
           <h1 class="name">Abhijith Rajeev</h1>
           <p class="tag-line">Web Developer</p>
+        </div>
+        <div class="profile-buttons">
+          <div class="white-button">
+            <span>Download Resume</span>
+          </div>
+          <div class="dark-button">
+            <span>Contact Me</span>
+          </div>
         </div>
         <div class="social-accounts">
           <i class="fa fa-linkedin-square"></i>
@@ -143,16 +155,16 @@
               <img src="./assets/about-image-bw.png" alt="Project Image" />
             </div>
             <div>
-              <p class="project-name">Architects Mobile Applcation</p>
+              <p class="project-name">Architects Mobile Application</p>
             </div>
             <div class="white-button">
               <span>Github</span>
             </div>
-            <div class="white-button">
+            <div class="dark-button">
               <span>Demo</span>
             </div>
             <div>
-              <p>
+              <p class="project-content">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text
                 ever since the 1500s, when an unknown printer took a galley of type
@@ -169,11 +181,11 @@
             <div class="white-button">
               <span>Github</span>
             </div>
-            <div class="white-button">
+            <div class="dark-button">
               <span>Demo</span>
             </div>
             <div>
-              <p>
+              <p class="project-content">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text
                 ever since the 1500s, when an unknown printer took a galley of type
@@ -190,11 +202,11 @@
             <div class="white-button">
               <span>Github</span>
             </div>
-            <div class="white-button">
+            <div class="dark-button">
               <span>Demo</span>
             </div>
             <div>
-              <p>
+              <p class="project-content">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text
                 ever since the 1500s, when an unknown printer took a galley of type
@@ -211,7 +223,7 @@
             <div class="white-button">
               <span>Github</span>
             </div>
-            <div class="white-button">
+            <div class="dark-button">
               <span>Demo</span>
             </div>
             <div>
@@ -224,7 +236,48 @@
           </div>
         </div>
       </div>
+      <div class="contact">
+        <div class="card">
+          <div class="card-head">
+            <p class="grey-text">Get in Touch</p>
+            <h1 class="name">Contact Me</h1>
+          </div>
+          <div class="contact-section">
+            <div class="box">
+              <form action="#" method="post">
+                <div class="input-line">
+                  <i class="fa fa-user"></i>
+                  <input type="text" placeholder="Full Name" name="fullName" id="fullName" required>
+                </div>
+                <div class="input-line">
+                  <i class="fa fa-envelope"></i>
+                  <input type="email" placeholder="Email Id" name="email" id="email" required>
+                </div>
+                <div class="input-line">
+                  <i class="fa fa-commenting"></i>
+                  <textarea name="message" placeholder="Type your message here" id="message" cols="30" rows="5"></textarea>
+                </div>
+                <div class="submit-button">
+                  <button class="dark-button" type="submit">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>          
+        </div>
+      </div>
     </section>
-    <footer></footer>
+    <footer>
+      <div>
+        <ul>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <span>Copyright @ 2024 Abhijith Rajeev. All Rights Reserved.</span>
+      </div>
+    </footer>
   </body>
 </html>
