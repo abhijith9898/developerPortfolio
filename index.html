@@ -30,213 +30,239 @@
           <img src="./assets/logo-black.png" alt="logo" />
         </div>
         <div class="drop-button">
-          <a href="#" onclick="toggleClick()"
-            ><span class="material-symbols-outlined">menu</span></a
-          >
+          <span class="material-symbols-outlined">menu</span>
         </div>
       </nav>
       <div class="nav-link" id="nav-link">
         <ul>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Experience">Experience</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </header>
     <section>
-      <div class="profile-section">
-        <div class="profile-image">
-          <img src="./assets/profile-pic-color.png" alt="profile picture" />
-        </div>
-        <div class="profile-text">
-          <p class="grey-text">Hello, I'm</p>
-          <h1 class="name">Abhijith Rajeev</h1>
-          <p class="tag-line">Web Developer</p>
-        </div>
-        <div class="profile-buttons">
-          <div class="white-button">
-            <span>Download Resume</span>
-          </div>
-          <div class="dark-button">
-            <span>Contact Me</span>
+      <div class="profile-section row">
+        <div class="col-2">
+          <div class="profile-image">
+            <img src="./assets/profile-pic-color.png" alt="profile picture" />
           </div>
         </div>
-        <div class="social-accounts">
-          <i class="fa fa-linkedin-square"></i>
-          <i class="fa fa-github"></i>
+        <div class="col-2 align-self-centre">
+          <div class="profile-text">
+            <p class="grey-text">Hello, I'm</p>
+            <h1 class="name">Abhijith Rajeev</h1>
+            <p class="tag-line">Web Developer</p>
+          </div>
+          <div class="profile-buttons">
+            <div class="white-button">
+              <span>Download Resume</span>
+            </div>
+            <div class="dark-button">
+              <span>Contact Me</span>
+            </div>
+          </div>
+          <div class="social-accounts">
+            <i class="fa fa-linkedin-square"></i>
+            <i class="fa fa-github"></i>
+          </div>
         </div>
       </div>
-      <div class="about">
+      <div #about class="about">
         <div class="card">
           <div class="card-head">
             <p class="grey-text">Get To Know More</p>
             <h1 class="name">About Me</h1>
           </div>
-          <div class="about-image">
-            <img src="./assets/about-image-bw.png" alt="About Image" />
-          </div>
-          <div class="about-content">
-            <div class="box">
-              <i class="fa fa-briefcase"></i>
-              <p class="about-box-head">Experience</p>
-              <p class="grey-text">2+ years</p>
-              <p class="grey-text">Web Development</p>
+          <div class="row">
+            <div class="col-2">
+              <div class="about-image">
+                <img src="./assets/about-image-bw.png" alt="About Image" />
+              </div>
             </div>
-            <div class="box">
-              <i class="fa fa-graduation-cap"></i>
-              <p class="about-box-head">Education</p>
-              <p class="grey-text">B.Tech in Computer Science</p>
-            </div>
-            <div>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book. It has survived not
-                only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged.
-              </p>
+            <div class="col-2">
+              <div class="about-content">
+                <div class="about-content-boxes">
+                  <div class="box">
+                    <i class="fa fa-briefcase"></i>
+                    <p class="about-box-head">Experience</p>
+                    <p class="grey-text">2+ years</p>
+                    <p class="grey-text">Web Development</p>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-graduation-cap"></i>
+                    <p class="about-box-head">Education</p>
+                    <p class="grey-text">B.Tech in Computer Science</p>
+                  </div>
+                </div>
+                <div>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not
+                    only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="skills">
+      <div #experience class="skills">
         <div class="card">
           <div class="card-head">
             <p class="grey-text">Explore My</p>
             <h1 class="name">Technical Skills</h1>
           </div>
-          <div class="box">
-            <p class="tag-line">Frontend Development</p>
-            <div class="tech-list">              
-              <span class="techs"><i class="fa fa-code"></i> ANGULAR 11+</span>
-              <span class="techs"><i class="fa fa-code"></i> IONIC 6</span>
-              <span class="techs"><i class="fa fa-code"></i> HTML</span>
-              <span class="techs"><i class="fa fa-code"></i> CSS</span>
-              <span class="techs"><i class="fa fa-code"></i> TYPESCRIPT</span>
-              <span class="techs"><i class="fa fa-code"></i> JAVASCRIPT</span>
+          <div class="row col-gap">
+            <div class="box col-2">
+              <p class="tag-line">Frontend Development</p>
+              <div class="tech-list">              
+                <span class="techs"><i class="fa fa-code"></i> ANGULAR 11+</span>
+                <span class="techs"><i class="fa fa-code"></i> IONIC 6</span>
+                <span class="techs"><i class="fa fa-code"></i> HTML</span>
+                <span class="techs"><i class="fa fa-code"></i> CSS</span>
+                <span class="techs"><i class="fa fa-code"></i> TYPESCRIPT</span>
+                <span class="techs"><i class="fa fa-code"></i> JAVASCRIPT</span>
+              </div>
             </div>
+            <div class="box col-2">
+              <p class="tag-line">UI Libraries</p>
+              <div class="tech-list">
+                <span class="techs"><i class="fa fa-code"></i> PRIME NG</span>
+                <span class="techs"><i class="fa fa-code"></i> TAILWIND CSS</span>
+                <span class="techs"><i class="fa fa-code"></i> MATERIAL UI</span>
+                <span class="techs"><i class="fa fa-code"></i> BOOTSTRAP</span>
+              </div>
+            </div>            
           </div>
-          <div class="box">
-            <p class="tag-line">UI Libraries</p>
-            <div class="tech-list">
-              <span class="techs"><i class="fa fa-code"></i> PRIME NG</span>
-              <span class="techs"><i class="fa fa-code"></i> TAILWIND CSS</span>
-              <span class="techs"><i class="fa fa-code"></i> MATERIAL UI</span>
-              <span class="techs"><i class="fa fa-code"></i> BOOTSTRAP</span>
+          <div class="row col-gap">
+            <div class="box col-2">
+              <p class="tag-line">Backend Development</p>
+              <div class="tech-list">
+                <span class="techs"><i class="fa fa-code"></i> NODE JS</span>
+                <span class="techs"><i class="fa fa-code"></i> SPRING BOOT</span>
+                <span class="techs"><i class="fa fa-code"></i> ASP .NET</span>
+                <span class="techs"><i class="fa fa-code"></i> JAVA</span>
+              </div>
             </div>
-          </div>
-          <div class="box">
-            <p class="tag-line">Backend Development</p>
-            <div class="tech-list">
-              <span class="techs"><i class="fa fa-code"></i> NODE JS</span>
-              <span class="techs"><i class="fa fa-code"></i> SPRING BOOT</span>
-              <span class="techs"><i class="fa fa-code"></i> ASP .NET</span>
-              <span class="techs"><i class="fa fa-code"></i> JAVA</span>
-            </div>
-          </div>
-          <div class="box">
-            <p class="tag-line">Version Control</p>
-            <div class="tech-list">
-              <span class="techs"><i class="fa fa-code"></i> GIT</span>
+            <div class="box col-2">
+              <p class="tag-line">Version Control</p>
+              <div class="tech-list">
+                <span class="techs"><i class="fa fa-code"></i> GIT</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="projects">
+      <div #projects class="projects">
         <div class="card">
           <div class="card-head">
             <p class="grey-text">Browse My</p>
             <h1 class="name">Projects</h1>
           </div>          
-          <div class="box">
-            <div class="project-image">
-              <img src="./assets/about-image-bw.png" alt="Project Image" />
+          <div class="row col-gap">
+            <div class="box col-2">
+              <div class="project-image">
+                <img src="./assets/architect-project.png" alt="Project Image" />
+              </div>
+              <div>
+                <p class="project-name">Architects Mobile Application</p>
+              </div>
+              <div class="row col-gap">
+                <div class="white-button">
+                  <span>Github</span>
+                </div>
+                <div class="dark-button">
+                  <span>Demo</span>
+                </div>
+              </div>
+              <div>
+                <p class="project-content">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy text
+                  ever since the 1500s, when an unknown printer took a galley of type
+                  and scrambled it to make a type specimen book.
+              </div>
             </div>
-            <div>
-              <p class="project-name">Architects Mobile Application</p>
-            </div>
-            <div class="white-button">
-              <span>Github</span>
-            </div>
-            <div class="dark-button">
-              <span>Demo</span>
-            </div>
-            <div>
-              <p class="project-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
-            </div>
-          </div>
-          <div class="box">
-            <div class="project-image">
-              <img src="./assets/about-image-bw.png" alt="Project Image" />
-            </div>
-            <div>
-              <p class="project-name">NGO Web Application</p>
-            </div>
-            <div class="white-button">
-              <span>Github</span>
-            </div>
-            <div class="dark-button">
-              <span>Demo</span>
-            </div>
-            <div>
-              <p class="project-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
-            </div>
-          </div>
-          <div class="box">
-            <div class="project-image">
-              <img src="./assets/about-image-bw.png" alt="Project Image" />
-            </div>
-            <div>
-              <p class="project-name">ERP Solution</p>
-            </div>
-            <div class="white-button">
-              <span>Github</span>
-            </div>
-            <div class="dark-button">
-              <span>Demo</span>
-            </div>
-            <div>
-              <p class="project-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
+            <div class="box col-2">
+              <div class="project-image">
+                <img src="./assets/web-app.png" alt="Project Image" />
+              </div>
+              <div>
+                <p class="project-name">NGO Web Application</p>
+              </div>
+              <div class="row col-gap">
+                <div class="white-button">
+                  <span>Github</span>
+                </div>
+                <div class="dark-button">
+                  <span>Demo</span>
+                </div>
+              </div>
+              <div>
+                <p class="project-content">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy text
+                  ever since the 1500s, when an unknown printer took a galley of type
+                  and scrambled it to make a type specimen book.
+              </div>
             </div>
           </div>
-          <div class="box">
-            <div class="project-image">
-              <img src="./assets/about-image-bw.png" alt="Project Image" />
+          <div class="row col-gap">
+            <div class="box col-2">
+              <div class="project-image">
+                <img src="./assets/erp-project.png" alt="Project Image" />
+              </div>
+              <div>
+                <p class="project-name">ERP Solution</p>
+              </div>
+              <div class="row col-gap">
+                <div class="white-button">
+                  <span>Github</span>
+                </div>
+                <div class="dark-button">
+                  <span>Demo</span>
+                </div>
+              </div>
+              <div>
+                <p class="project-content">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy text
+                  ever since the 1500s, when an unknown printer took a galley of type
+                  and scrambled it to make a type specimen book.
+              </div>
             </div>
-            <div>
-              <p class="project-name">Contact Management Application</p>
-            </div>
-            <div class="white-button">
-              <span>Github</span>
-            </div>
-            <div class="dark-button">
-              <span>Demo</span>
-            </div>
-            <div>
-              <p class="project-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
+            <div class="box col-2">
+              <div class="project-image">
+                <img src="./assets/contact-project.png" alt="Project Image" />
+              </div>
+              <div>
+                <p class="project-name">Contact Management Application</p>
+              </div>
+              <div class="row col-gap">
+                <div class="white-button">
+                  <span>Github</span>
+                </div>
+                <div class="dark-button">
+                  <span>Demo</span>
+                </div>
+              </div>
+              <div>
+                <p class="project-content">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy text
+                  ever since the 1500s, when an unknown printer took a galley of type
+                  and scrambled it to make a type specimen book.
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="contact">
+      <div #contact class="contact">
         <div class="card">
           <div class="card-head">
             <p class="grey-text">Get in Touch</p>
