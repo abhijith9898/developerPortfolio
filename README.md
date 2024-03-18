@@ -24,7 +24,8 @@
     - Used lang attribute on html tag which helps screen reader to apply correct pronounciation and language
     - Used proper color contrast
 
-#5 Search Engine Optimization (SEO) Strategy
+#5 Search Engine Optimization (SEO) Strategy:
+
     -Used descriptive and relevant meta tags such as author, description and keywords
     -Included keywords in page headings, and content.
     -Implemented responsive design for better mobile usability, which helps in SEO rankings.
